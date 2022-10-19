@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /**solution**/
+  display: flex;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -67,12 +71,6 @@ button.cancel {
 
 /* SOLUTION: */
 
-.modal {
-  display: flex;
-  gap: 16px;
-  padding: 16px;
-}
-
 .icon {
   /* this keeps the icon from getting smashed by the text */
   flex-shrink: 0;
@@ -88,5 +86,5 @@ button.cancel {
 }
 
 .text {
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
